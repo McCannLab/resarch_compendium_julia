@@ -18,19 +18,15 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1.0.0
-
       - name: "Install matplotlib"
         run: pip3 install matplotlib
-
       - name: "Set up Julia"
         uses: julia-actions/setup-julia@v1
         with:
           version: ${{ matrix.julia-version }}
-
       - name: "Install packages"
         run: julia -p 1 src/install_packages.jl
         shell: bash
-
       - name: "Run a script"
         run: julia -p 1 src/script1.jl
         shell: bash
