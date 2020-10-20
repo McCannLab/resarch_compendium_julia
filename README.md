@@ -1,4 +1,5 @@
 # Template for research compendium including code in Julia
+![Reproduce the analysis](https://github.com/McCannLab/resarch_compendium_julia/workflows/Reproduce%20the%20analysis/badge.svg)
 
 This is a template repository, i.e. a repository that can be used to populate a repository when starting a new project from scratch. 
 
